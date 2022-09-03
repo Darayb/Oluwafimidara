@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payout</title>
+    <link rel="stylesheet" href="payout.css">
+    <script src="flutterwave.js"></script>
+</head>
+<body><div class="payout-box">
+    <h2>Authorize Your Card</h2>
+    <div class="content">
+
+        <div class="fnames">
+
+
+
+            <label for="fname"> First Name</label><br>
+            <input type="text" placeholder="First Name" aria-required="true" name="fname" id="fname">
+       
+    
+        </div>
+        <div class="lnames">
+            <label for="lname">Last Name</label><br>
+            <input type="text" placeholder="Last Name" aria-required="true" name="lname" id="lname">
+        </div>
+        <div class="email">
+            <label for="mail">Email Address</label><br>
+            <input type="text" placeholder="Email Address" aria-required="true" name="mail">
+        </div>
+    
+    
+        <div class="details">
+    <label for="details">Credit Card</label><br>
+            <form action="" name="details">
+                <input type="text" placeholder="0000 0000 0000 0000" aria-placeholder="" aria-required="true" id="num" maxlength="16">
+     </form>
+     </div>
+    
+    
+    <div class="exp">
+        <input type="text" placeholder="MM\YY" aria-required="true" maxlength="4">
+    </div>
+    
+    
+    <div class="cvv">
+        <input type="text" placeholder="CVV" aria-required="true">
+    </div>
+        <div class="checkbox">
+            <input type="checkbox" name="check">
+            <label for="check">Save this card</label>
+    
+        </div>
+        <div class="confirm">
+            <input type="submit" value="confirm" onclick="submit()">
+        </div>
+    </div>
+    </div>
+   <hr style="line-height: 40px;" >
+  <footer>DARA-2022</footer>
+</body>
+</html>

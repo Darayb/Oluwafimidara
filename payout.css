@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.payout-box{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 430px;
+    background:white;
+    font-family: "Raleway" , sans-serif;
+    box-shadow: 2px 2px 5px 5px rgb(0, 0, 0, 0.15);
+    border-radius: 20px;
+
+}
+#fname{
+    padding:8px 15px;
+}
+.fnames{
+    margin: 70px 12px;
+    position: fixed;
+}
+.fnames input[type="text"]{
+    border: none;
+    outline: none;
+    border: 2px solid rgb(236, 196, 17);
+    background: none;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.lnames input[type="text"]{
+    border: none;
+    outline: none;
+    border: 2px solid rgb(236, 196, 17);
+    background: none;
+    font-weight: 500;
+    border-radius: 10px;
+}
+h2{
+    position: fixed;
+    text-align: center;
+    margin: 10px 125px;
+}
+footer{
+    position: fixed;
+    left: 48%;
+    top: 95%;
+  font-weight: 800;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.email input[type="text"]{
+    border: none;
+    outline: none;
+    border: 2px solid rgb(236, 196, 17);
+    background: none;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.details input[type="text"]{
+    border: none;
+    outline: none;
+    border: 2px solid rgb(236, 196, 17);
+    background: none
+    font-weight: 500;
+    border-radius: 10px;
+}
+.exp input[type="text"]{
+    border: none;
+    outline: none;
+    border: 2px solid rgb(236, 196, 17);
+    background: none;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.cvv input[type="text"]{
+    border: none;
+    outline: none;
+    border: 2px solid rgb(236, 196, 17);
+    background: none;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.lnames{
+    margin: 70px 275px;
+    position: fixed;
+
+}
+.lnames input[type="text"]{
+    padding:8px 15px;
+
+}
+label{
+    font-weight: 600;
+    margin: 50px 8px;
+}
+.email{
+    position: fixed;
+margin: 150px 12px;
+}
+.email input[type="text"]{
+    padding: 8px 147px;
+text-align: center;
+
+}
+.details{
+    position: fixed;
+    margin: 230px 12px;
+}
+
+.details input[type="text"]{
+    padding: 10px 23px;
+    font-size: 18px;
+    align-items: left;
+    text-align: left;
+    text-justify: left;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.exp input[type="text"]{
+    width: 70px;
+    position: fixed;
+    height: 40px;
+    margin: 248px 305px;
+text-align: center;
+
+}
+.cvv input[type="text"]{
+    width: 70px;
+    position: fixed;
+    height: 40px;
+    margin: 248px 399px;
+    align-items: center;
+text-align: center;
+}
+.checkbox{
+    position: fixed;
+    top: 73%;
+    left: 68%;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.confirm{
+    position: fixed;
+    top: 88% ;
+    left:10% ;
+
+}
+.confirm input[type="submit"]{
+padding: 7px 180px;
+background: rgb(236, 196, 17);
+border-radius: 5px;
+border: none;
+cursor: pointer;
+font-weight: 700;
+}
